@@ -196,7 +196,7 @@
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">Edited on</span>
-      <time title="Modified: 2022-03-18 11:06:38" itemprop="dateModified" datetime="2022-03-18T11:06:38+08:00">2022-03-18</time>
+      <time title="Modified: 2022-03-18 11:33:31" itemprop="dateModified" datetime="2022-03-18T11:33:31+08:00">2022-03-18</time>
     </span>
 
   
@@ -209,7 +209,14 @@
     
     
     <div class="post-body" itemprop="articleBody">
-          <p><span class="math inline">\(x^2\)</span></p>
+          <p><strong>数学公式</strong></p>
+<p>Sigmoid 函数：<span class="math inline">\(g(z) = \frac{1}{1 + e^{-z}}\)</span></p>
+<p><strong>代码块</strong></p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">merged = pd.merge(pop, abbrevs, *how* = <span class="string">&#x27;outer&#x27;</span>, *left_on* = <span class="string">&#x27;state/region&#x27;</span>, *right_on* = <span class="string">&#x27;abbreviation&#x27;</span>)</span><br><span class="line"></span><br><span class="line">merged = merged.drop(<span class="string">&#x27;abbreviation&#x27;</span>, *axis* = <span class="number">1</span>)</span><br><span class="line"></span><br><span class="line">merged.head()</span><br><span class="line"></span><br><span class="line">merged.isnull().<span class="built_in">any</span>() <span class="comment"># 检查是否存在空值</span></span><br><span class="line"></span><br><span class="line">merged[merged[<span class="string">&#x27;population&#x27;</span>].isnull()].head() <span class="comment"># 查看缺失的 populaiton 的值</span></span><br><span class="line"></span><br><span class="line">merged.loc[merged[<span class="string">&#x27;state&#x27;</span>].isnull(), <span class="string">&#x27;state/region&#x27;</span>].unique()</span><br></pre></td></tr></table></figure>
+<p><strong>图片</strong></p>
+<figure>
+<img src="https://s2.loli.net/2022/03/18/5kuIPmepKVYX69c.jpg" alt="贝叶斯老师" /><figcaption aria-hidden="true">贝叶斯老师</figcaption>
+</figure>
 
       
     </div>
